@@ -1,6 +1,0 @@
-com\EmpRec\EmployeeRecord\Services\EmpService.class
-com\EmpRec\EmployeeRecord\Entity\Employee.class
-com\EmpRec\EmployeeRecord\Services\EmpServiceImp.class
-com\EmpRec\EmployeeRecord\Controller\EmployeeController.class
-com\EmpRec\EmployeeRecord\Repository\EmployeeRep.class
-com\EmpRec\EmployeeRecord\EmployeeRecordApplication.class

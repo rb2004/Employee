@@ -16,9 +16,9 @@ import javax.persistence.*;
 public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int id;
+    private Integer id;
     private String name;
-    private int salary;
+    private Integer salary;
     private String dept;
 }
 

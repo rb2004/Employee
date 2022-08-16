@@ -5,9 +5,11 @@ import com.EmpRec.EmployeeRecord.Repository.EmployeeRep;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.expression.spel.ast.NullLiteral;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
@@ -38,7 +40,7 @@ public class EmpServiceImp implements EmpService {
      //abc.stream().filter(a->a.getId()== emp.getId()).map(a->emp).collect(Collectors.toList());
 
         abc.stream().map(a-> {
-            if (a.getId() == emp.getId()) {
+            if (a.getId()  == emp.getId()) {
                 a.setName(emp.getName());
                 a.setDept(emp.getDept());
                 a.setSalary(emp.getSalary());
@@ -56,14 +58,16 @@ public class EmpServiceImp implements EmpService {
     }
 
     @Override
-    public Employee getEmpById(Integer id) {
-        try {
-            return repo.findById(id).orElse(null);
-        }catch (Exception e){
-            e.printStackTrace();
-            System.out.println("gughfhhjgchgjgvhj"+e);
+    public Employee getEmpById(Integer id) throws RuntimeException{
+        Optional<Employee> employee = repo.findById(id);
+        if(employee.isPresent()){
+            return employee.get();
         }
-        return null;
+        else{
+            throw new RuntimeException();
+        }
+
+
     }
 
     @Override

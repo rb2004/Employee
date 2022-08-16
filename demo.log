@@ -1,0 +1,2355 @@
+{
+  "timestamp" : "2022-07-05 13:21:36.783",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.EmpRec.EmployeeRecord.EmployeeRecordApplication",
+  "message" : "Starting EmployeeRecordApplication using Java 11.0.15 on GEMGN-220222 with PID 12632 (C:\\Users\\rahul.bhardwaj\\Downloads\\EmpRec\\EmpRec\\target\\classes started by Rahul.Bhardwaj in C:\\Users\\rahul.bhardwaj\\Downloads\\EmpRec\\EmpRec)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-05 13:21:36.803",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.EmpRec.EmployeeRecord.EmployeeRecordApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-05 13:21:36.868",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-05 13:21:36.869",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-05 13:21:37.701",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.data.repository.com.EmpRec.EmployeeRecord.config.RepositoryConfigurationDelegate",
+  "message" : "Bootstrapping Spring Data JPA repositories in DEFAULT mode.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-05 13:21:37.760",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.data.repository.com.EmpRec.EmployeeRecord.config.RepositoryConfigurationDelegate",
+  "message" : "Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interfaces.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-05 13:21:38.976",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 8083 (http)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-05 13:21:38.993",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-8083\"]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-05 13:21:38.994",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-05 13:21:38.995",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/9.0.62]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-05 13:21:39.087",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-05 13:21:39.088",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 2218 ms",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-05 13:21:39.377",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.jpa.internal.util.LogHelper",
+  "message" : "HHH000204: Processing PersistenceUnitInfo [name: default]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-05 13:21:39.431",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.Version",
+  "message" : "HHH000412: Hibernate ORM core version 5.6.8.Final",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-05 13:21:39.678",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.annotations.common.Version",
+  "message" : "HCANN000001: Hibernate Commons Annotations {5.1.2.Final}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-05 13:21:39.801",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Starting...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-05 13:21:40.150",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Start completed.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-05 13:21:40.166",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.dialect.Dialect",
+  "message" : "HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-05 13:21:40.918",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator",
+  "message" : "HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-05 13:21:40.927",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Initialized JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-05 13:21:41.319",
+  "level" : "WARN",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration",
+  "message" : "spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-05 13:21:41.763",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer",
+  "message" : "LiveReload server is running on port 35729",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-05 13:21:41.797",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-8083\"]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-05 13:21:41.824",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 8083 (http) with context path ''",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-05 13:21:41.839",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.EmpRec.EmployeeRecord.EmployeeRecordApplication",
+  "message" : "Started EmployeeRecordApplication in 5.66 seconds (JVM running for 6.568)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-05 13:24:12.687",
+  "level" : "INFO",
+  "thread" : "http-nio-8083-exec-2",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring DispatcherServlet 'dispatcherServlet'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-05 13:24:12.690",
+  "level" : "INFO",
+  "thread" : "http-nio-8083-exec-2",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Initializing Servlet 'dispatcherServlet'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-05 13:24:12.692",
+  "level" : "INFO",
+  "thread" : "http-nio-8083-exec-2",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Completed initialization in 2 ms",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-05 13:24:13.308",
+  "level" : "INFO",
+  "thread" : "http-nio-8083-exec-2",
+  "logger" : "com.EmpRec.EmployeeRecord.Controller.EmployeeController",
+  "message" : "[Employee(id=1, name=raikl, salary=25003, dept=EMS), Employee(id=2, name=raikl, salary=25003, dept=EMS), Employee(id=3, name=raikl, salary=25003, dept=EMS), Employee(id=101, name=raj, salary=2500, dept=EMS), Employee(id=102, name=Carla, salary=56565, dept=IVS)]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-05 13:52:27.945",
+  "level" : "WARN",
+  "thread" : "HikariPool-1 housekeeper",
+  "logger" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m47s502ms111µs700ns).",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-05 13:52:41.630",
+  "level" : "INFO",
+  "thread" : "http-nio-8083-exec-5",
+  "logger" : "com.EmpRec.EmployeeRecord.Controller.EmployeeController",
+  "message" : "[Employee(id=1, name=raikl, salary=25003, dept=EMS), Employee(id=2, name=raikl, salary=25003, dept=EMS), Employee(id=3, name=raikl, salary=25003, dept=EMS), Employee(id=101, name=raj, salary=2500, dept=EMS), Employee(id=102, name=Carla, salary=56565, dept=IVS)]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-05 13:53:53.888",
+  "level" : "INFO",
+  "thread" : "http-nio-8083-exec-8",
+  "logger" : "com.EmpRec.EmployeeRecord.Controller.EmployeeController",
+  "message" : "[Employee(id=1, name=raikl, salary=25003, dept=EMS), Employee(id=2, name=raikl, salary=25003, dept=EMS), Employee(id=3, name=raikl, salary=25003, dept=EMS), Employee(id=101, name=raj, salary=2500, dept=EMS), Employee(id=102, name=Carla, salary=56565, dept=IVS)]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-05 14:25:04.849",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Closing JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-05 14:25:04.849",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown initiated...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-05 14:25:04.860",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown completed.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 00:01:38.617",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.EmpRec.EmployeeRecord.EmployeeRecordApplication",
+  "message" : "Starting EmployeeRecordApplication using Java 11.0.15 on GEMGN-220222 with PID 2460 (C:\\Users\\rahul.bhardwaj\\Downloads\\EmpRec\\EmpRec\\target\\classes started by Rahul.Bhardwaj in C:\\Users\\rahul.bhardwaj\\Downloads\\EmpRec\\EmpRec)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 00:01:38.633",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.EmpRec.EmployeeRecord.EmployeeRecordApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 00:01:38.678",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 00:01:38.678",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 00:01:39.344",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.data.repository.com.EmpRec.EmployeeRecord.config.RepositoryConfigurationDelegate",
+  "message" : "Bootstrapping Spring Data JPA repositories in DEFAULT mode.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 00:01:39.391",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.data.repository.com.EmpRec.EmployeeRecord.config.RepositoryConfigurationDelegate",
+  "message" : "Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 00:01:40.359",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 8083 (http)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 00:01:40.366",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-8083\"]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 00:01:40.374",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 00:01:40.374",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/9.0.62]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 00:01:40.456",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 00:01:40.457",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 1779 ms",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 00:01:40.676",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.jpa.internal.util.LogHelper",
+  "message" : "HHH000204: Processing PersistenceUnitInfo [name: default]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 00:01:40.707",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.Version",
+  "message" : "HHH000412: Hibernate ORM core version 5.6.8.Final",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 00:01:40.866",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.annotations.common.Version",
+  "message" : "HCANN000001: Hibernate Commons Annotations {5.1.2.Final}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 00:01:40.968",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Starting...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 00:01:41.257",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Start completed.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 00:01:41.273",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.dialect.Dialect",
+  "message" : "HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 00:01:41.883",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator",
+  "message" : "HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 00:01:41.891",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Initialized JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 00:01:42.188",
+  "level" : "WARN",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration",
+  "message" : "spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 00:01:42.529",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer",
+  "message" : "LiveReload server is running on port 35729",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 00:01:42.545",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-8083\"]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 00:01:42.568",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 8083 (http) with context path ''",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 00:01:42.574",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.EmpRec.EmployeeRecord.EmployeeRecordApplication",
+  "message" : "Started EmployeeRecordApplication in 4.447 seconds (JVM running for 5.218)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 00:02:58.851",
+  "level" : "INFO",
+  "thread" : "http-nio-8083-exec-2",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring DispatcherServlet 'dispatcherServlet'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 00:02:58.851",
+  "level" : "INFO",
+  "thread" : "http-nio-8083-exec-2",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Initializing Servlet 'dispatcherServlet'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 00:02:58.851",
+  "level" : "INFO",
+  "thread" : "http-nio-8083-exec-2",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Completed initialization in 0 ms",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 00:04:33.373",
+  "level" : "INFO",
+  "thread" : "http-nio-8083-exec-4",
+  "logger" : "com.EmpRec.EmployeeRecord.Controller.EmployeeController",
+  "message" : "[Employee(id=1, name=raikl, salary=25003, dept=EMS), Employee(id=2, name=raikl, salary=25003, dept=EMS), Employee(id=3, name=raikl, salary=25003, dept=EMS), Employee(id=101, name=raj, salary=2500, dept=EMS), Employee(id=102, name=Carla, salary=56565, dept=IVS)]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 00:30:22.381",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Closing JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 00:30:22.387",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown initiated...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 00:30:22.411",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown completed.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:37:00.329",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.EmpRec.EmployeeRecord.EmployeeRecordApplication",
+  "message" : "Starting EmployeeRecordApplication using Java 11.0.15 on GEMGN-220222 with PID 7320 (C:\\Users\\rahul.bhardwaj\\Downloads\\EmpRec\\EmpRec\\target\\classes started by Rahul.Bhardwaj in C:\\Users\\rahul.bhardwaj\\Downloads\\EmpRec\\EmpRec)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:37:00.350",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.EmpRec.EmployeeRecord.EmployeeRecordApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:37:00.424",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:37:00.426",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:37:01.429",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.data.repository.com.EmpRec.EmployeeRecord.config.RepositoryConfigurationDelegate",
+  "message" : "Bootstrapping Spring Data JPA repositories in DEFAULT mode.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:37:01.483",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.data.repository.com.EmpRec.EmployeeRecord.config.RepositoryConfigurationDelegate",
+  "message" : "Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:37:02.530",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 8083 (http)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:37:02.548",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-8083\"]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:37:02.549",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:37:02.550",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/9.0.62]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:37:02.631",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:37:02.632",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 2204 ms",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:37:02.885",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.jpa.internal.util.LogHelper",
+  "message" : "HHH000204: Processing PersistenceUnitInfo [name: default]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:37:02.956",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.Version",
+  "message" : "HHH000412: Hibernate ORM core version 5.6.8.Final",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:37:03.129",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.annotations.common.Version",
+  "message" : "HCANN000001: Hibernate Commons Annotations {5.1.2.Final}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:37:03.241",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Starting...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:37:03.635",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Start completed.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:37:03.658",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.dialect.Dialect",
+  "message" : "HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:37:04.459",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator",
+  "message" : "HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:37:04.470",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Initialized JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:37:04.862",
+  "level" : "WARN",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration",
+  "message" : "spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:37:05.376",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer",
+  "message" : "LiveReload server is running on port 35729",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:37:05.395",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-8083\"]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:37:05.430",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 8083 (http) with context path ''",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:37:05.444",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.EmpRec.EmployeeRecord.EmployeeRecordApplication",
+  "message" : "Started EmployeeRecordApplication in 5.683 seconds (JVM running for 6.96)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:37:36.957",
+  "level" : "INFO",
+  "thread" : "http-nio-8083-exec-1",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring DispatcherServlet 'dispatcherServlet'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:37:36.958",
+  "level" : "INFO",
+  "thread" : "http-nio-8083-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Initializing Servlet 'dispatcherServlet'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:37:36.960",
+  "level" : "INFO",
+  "thread" : "http-nio-8083-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Completed initialization in 2 ms",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:40:36.823",
+  "level" : "WARN",
+  "thread" : "http-nio-8083-exec-1",
+  "logger" : "org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver",
+  "message" : "Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: \"a\"]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:54:23.226",
+  "level" : "WARN",
+  "thread" : "http-nio-8083-exec-5",
+  "logger" : "org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver",
+  "message" : "Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: \"aqcacs\"]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:54:49.967",
+  "level" : "WARN",
+  "thread" : "http-nio-8083-exec-8",
+  "logger" : "org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver",
+  "message" : "Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: \"sa\"]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:56:19.568",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Closing JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:56:19.571",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown initiated...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:56:19.580",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown completed.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:56:26.794",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.EmpRec.EmployeeRecord.EmployeeRecordApplication",
+  "message" : "Starting EmployeeRecordApplication using Java 11.0.15 on GEMGN-220222 with PID 36120 (C:\\Users\\rahul.bhardwaj\\Downloads\\EmpRec\\EmpRec\\target\\classes started by Rahul.Bhardwaj in C:\\Users\\rahul.bhardwaj\\Downloads\\EmpRec\\EmpRec)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:56:26.821",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.EmpRec.EmployeeRecord.EmployeeRecordApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:56:26.887",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:56:26.888",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:56:27.582",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.data.repository.com.EmpRec.EmployeeRecord.config.RepositoryConfigurationDelegate",
+  "message" : "Bootstrapping Spring Data JPA repositories in DEFAULT mode.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:56:27.633",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.data.repository.com.EmpRec.EmployeeRecord.config.RepositoryConfigurationDelegate",
+  "message" : "Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:56:28.694",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 8083 (http)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:56:28.704",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-8083\"]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:56:28.705",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:56:28.705",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/9.0.62]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:56:28.782",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:56:28.783",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 1894 ms",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:56:29.029",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.jpa.internal.util.LogHelper",
+  "message" : "HHH000204: Processing PersistenceUnitInfo [name: default]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:56:29.075",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.Version",
+  "message" : "HHH000412: Hibernate ORM core version 5.6.8.Final",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:56:29.235",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.annotations.common.Version",
+  "message" : "HCANN000001: Hibernate Commons Annotations {5.1.2.Final}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:56:29.326",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Starting...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:56:29.619",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Start completed.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:56:29.636",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.dialect.Dialect",
+  "message" : "HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:56:30.348",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator",
+  "message" : "HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:56:30.361",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Initialized JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:56:30.854",
+  "level" : "WARN",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration",
+  "message" : "spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:56:31.523",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer",
+  "message" : "LiveReload server is running on port 35729",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:56:31.540",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-8083\"]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:56:31.579",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 8083 (http) with context path ''",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 15:56:31.590",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.EmpRec.EmployeeRecord.EmployeeRecordApplication",
+  "message" : "Started EmployeeRecordApplication in 5.383 seconds (JVM running for 6.323)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 16:07:24.150",
+  "level" : "INFO",
+  "thread" : "http-nio-8083-exec-1",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring DispatcherServlet 'dispatcherServlet'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 16:07:24.152",
+  "level" : "INFO",
+  "thread" : "http-nio-8083-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Initializing Servlet 'dispatcherServlet'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 16:07:24.153",
+  "level" : "INFO",
+  "thread" : "http-nio-8083-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Completed initialization in 1 ms",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 16:22:30.444",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Closing JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 16:22:30.451",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown initiated...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 16:22:30.466",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown completed.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 17:47:24.100",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.EmpRec.EmployeeRecord.EmployeeRecordApplication",
+  "message" : "Starting EmployeeRecordApplication using Java 11.0.15 on GEMGN-220222 with PID 31576 (C:\\Users\\rahul.bhardwaj\\Downloads\\EmpRec\\EmpRec\\target\\classes started by Rahul.Bhardwaj in C:\\Users\\rahul.bhardwaj\\Downloads\\EmpRec\\EmpRec)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 17:47:24.133",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.EmpRec.EmployeeRecord.EmployeeRecordApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 17:47:24.192",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 17:47:24.193",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 17:47:24.962",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.data.repository.com.EmpRec.EmployeeRecord.config.RepositoryConfigurationDelegate",
+  "message" : "Bootstrapping Spring Data JPA repositories in DEFAULT mode.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 17:47:25.046",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.data.repository.com.EmpRec.EmployeeRecord.config.RepositoryConfigurationDelegate",
+  "message" : "Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interfaces.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 17:47:26.170",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 8083 (http)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 17:47:26.182",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-8083\"]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 17:47:26.183",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 17:47:26.183",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/9.0.62]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 17:47:26.268",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 17:47:26.268",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 2073 ms",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 17:47:26.551",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.jpa.internal.util.LogHelper",
+  "message" : "HHH000204: Processing PersistenceUnitInfo [name: default]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 17:47:26.602",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.Version",
+  "message" : "HHH000412: Hibernate ORM core version 5.6.8.Final",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 17:47:26.759",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.annotations.common.Version",
+  "message" : "HCANN000001: Hibernate Commons Annotations {5.1.2.Final}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 17:47:26.861",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Starting...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 17:47:27.187",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Start completed.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 17:47:27.204",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.dialect.Dialect",
+  "message" : "HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 17:47:27.972",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator",
+  "message" : "HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 17:47:27.981",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Initialized JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 17:47:28.324",
+  "level" : "WARN",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration",
+  "message" : "spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 17:47:28.718",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer",
+  "message" : "LiveReload server is running on port 35729",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 17:47:28.735",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-8083\"]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 17:47:28.756",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 8083 (http) with context path ''",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 17:47:28.768",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.EmpRec.EmployeeRecord.EmployeeRecordApplication",
+  "message" : "Started EmployeeRecordApplication in 5.179 seconds (JVM running for 6.15)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 17:48:24.990",
+  "level" : "INFO",
+  "thread" : "http-nio-8083-exec-1",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring DispatcherServlet 'dispatcherServlet'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 17:48:24.991",
+  "level" : "INFO",
+  "thread" : "http-nio-8083-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Initializing Servlet 'dispatcherServlet'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 17:48:24.993",
+  "level" : "INFO",
+  "thread" : "http-nio-8083-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Completed initialization in 1 ms",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 17:51:20.548",
+  "level" : "WARN",
+  "thread" : "http-nio-8083-exec-5",
+  "logger" : "org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver",
+  "message" : "Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: \"eg\"]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 17:57:58.416",
+  "level" : "INFO",
+  "thread" : "http-nio-8083-exec-4",
+  "logger" : "com.EmpRec.EmployeeRecord.Controller.EmployeeController",
+  "message" : "[Employee(id=1, name=raikl, salary=25003, dept=EMS), Employee(id=2, name=raikl, salary=25003, dept=EMS), Employee(id=3, name=raikl, salary=25003, dept=EMS), Employee(id=4, name=raikl, salary=25003, dept=EMS), Employee(id=5, name=raikl, salary=25003, dept=EMS), Employee(id=6, name=raikl, salary=25003, dept=EMS), Employee(id=101, name=raj, salary=2500, dept=EMS), Employee(id=102, name=Carla, salary=56565, dept=IVS)]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 17:58:35.796",
+  "level" : "INFO",
+  "thread" : "http-nio-8083-exec-6",
+  "logger" : "com.EmpRec.EmployeeRecord.Controller.EmployeeController",
+  "message" : "[Employee(id=1, name=raikl, salary=25003, dept=EMS), Employee(id=2, name=raikl, salary=25003, dept=EMS), Employee(id=3, name=raikl, salary=25003, dept=EMS), Employee(id=4, name=raikl, salary=25003, dept=EMS), Employee(id=5, name=raikl, salary=25003, dept=EMS), Employee(id=6, name=raikl, salary=25003, dept=EMS), Employee(id=101, name=raj, salary=2500, dept=EMS), Employee(id=102, name=Carla, salary=56565, dept=IVS)]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:06:33.160",
+  "level" : "ERROR",
+  "thread" : "http-nio-8083-exec-2",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]",
+  "message" : "Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.EmptyResultDataAccessException: No class com.EmpRec.EmployeeRecord.Entity.Employee entity with id 9 exists!] with root cause",
+  "context" : "default",
+  "exception" : "org.springframework.dao.EmptyResultDataAccessException: No class com.EmpRec.EmployeeRecord.Entity.Employee entity with id 9 exists!\r\n\tat org.springframework.data.jpa.repository.support.SimpleJpaRepository.lambda$deleteById$0(SimpleJpaRepository.java:172)\r\n\tat java.base/java.util.Optional.orElseThrow(Optional.java:408)\r\n\tat org.springframework.data.jpa.repository.support.SimpleJpaRepository.deleteById(SimpleJpaRepository.java:171)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289)\r\n\tat org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)\r\n\tat org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)\r\n\tat org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:529)\r\n\tat org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)\r\n\tat org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:639)\r\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)\r\n\tat org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:163)\r\n\tat org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:138)\r\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)\r\n\tat org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)\r\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)\r\n\tat org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)\r\n\tat org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)\r\n\tat org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)\r\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)\r\n\tat org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)\r\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)\r\n\tat org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174)\r\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)\r\n\tat org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)\r\n\tat org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)\r\n\tat org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)\r\n\tat com.sun.proxy.$Proxy100.deleteById(Unknown Source)\r\n\tat com.EmpRec.EmployeeRecord.Services.EmpServiceImp.delEmp(EmpServiceImp.java:72)\r\n\tat com.EmpRec.EmployeeRecord.Controller.EmployeeController.delEmp(EmployeeController.java:45)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)\r\n\tat org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)\r\n\tat org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)\r\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)\r\n\tat org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931)\r\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:687)\r\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)\r\n\tat javax.servlet.http.HttpServlet.service(HttpServlet.java:764)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)\r\n\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)\r\n\tat org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)\r\n\tat org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)\r\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)\r\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)\r\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)\r\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)\r\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)\r\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)\r\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)\r\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)\r\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)\r\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)\r\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)\r\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)\r\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)\r\n\tat org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)\r\n\tat org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)\r\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)\r\n\tat java.base/java.lang.Thread.run(Thread.java:829)\r\n"
+}{
+  "timestamp" : "2022-07-06 18:35:38.582",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Closing JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:35:38.591",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown initiated...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:35:38.617",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown completed.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:35:47.683",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.EmpRec.EmployeeRecord.EmployeeRecordApplication",
+  "message" : "Starting EmployeeRecordApplication using Java 11.0.15 on GEMGN-220222 with PID 572 (C:\\Users\\rahul.bhardwaj\\Downloads\\EmpRec\\EmpRec\\target\\classes started by Rahul.Bhardwaj in C:\\Users\\rahul.bhardwaj\\Downloads\\EmpRec\\EmpRec)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:35:47.702",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.EmpRec.EmployeeRecord.EmployeeRecordApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:35:47.765",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:35:47.766",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:35:48.514",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.data.repository.com.EmpRec.EmployeeRecord.config.RepositoryConfigurationDelegate",
+  "message" : "Bootstrapping Spring Data JPA repositories in DEFAULT mode.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:35:48.571",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.data.repository.com.EmpRec.EmployeeRecord.config.RepositoryConfigurationDelegate",
+  "message" : "Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:35:49.666",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 8083 (http)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:35:49.677",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-8083\"]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:35:49.681",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:35:49.681",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/9.0.62]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:35:49.763",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:35:49.763",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 1996 ms",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:35:49.988",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.jpa.internal.util.LogHelper",
+  "message" : "HHH000204: Processing PersistenceUnitInfo [name: default]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:35:50.045",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.Version",
+  "message" : "HHH000412: Hibernate ORM core version 5.6.8.Final",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:35:50.233",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.annotations.common.Version",
+  "message" : "HCANN000001: Hibernate Commons Annotations {5.1.2.Final}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:35:50.342",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Starting...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:35:50.651",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Start completed.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:35:50.676",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.dialect.Dialect",
+  "message" : "HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:35:51.419",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator",
+  "message" : "HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:35:51.426",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Initialized JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:35:51.806",
+  "level" : "WARN",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration",
+  "message" : "spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:35:52.183",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer",
+  "message" : "LiveReload server is running on port 35729",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:35:52.198",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-8083\"]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:35:52.227",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 8083 (http) with context path ''",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:35:52.238",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.EmpRec.EmployeeRecord.EmployeeRecordApplication",
+  "message" : "Started EmployeeRecordApplication in 5.087 seconds (JVM running for 5.977)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:36:16.412",
+  "level" : "INFO",
+  "thread" : "http-nio-8083-exec-1",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring DispatcherServlet 'dispatcherServlet'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:36:16.412",
+  "level" : "INFO",
+  "thread" : "http-nio-8083-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Initializing Servlet 'dispatcherServlet'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:36:16.413",
+  "level" : "INFO",
+  "thread" : "http-nio-8083-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Completed initialization in 1 ms",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:38:57.178",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Closing JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:38:57.183",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown initiated...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:38:57.210",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown completed.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:39:02.237",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.EmpRec.EmployeeRecord.EmployeeRecordApplication",
+  "message" : "Starting EmployeeRecordApplication using Java 11.0.15 on GEMGN-220222 with PID 40584 (C:\\Users\\rahul.bhardwaj\\Downloads\\EmpRec\\EmpRec\\target\\classes started by Rahul.Bhardwaj in C:\\Users\\rahul.bhardwaj\\Downloads\\EmpRec\\EmpRec)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:39:02.258",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.EmpRec.EmployeeRecord.EmployeeRecordApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:39:02.337",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:39:02.338",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:39:03.168",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.data.repository.com.EmpRec.EmployeeRecord.config.RepositoryConfigurationDelegate",
+  "message" : "Bootstrapping Spring Data JPA repositories in DEFAULT mode.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:39:03.224",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.data.repository.com.EmpRec.EmployeeRecord.config.RepositoryConfigurationDelegate",
+  "message" : "Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interfaces.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:39:04.319",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 8083 (http)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:39:04.332",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-8083\"]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:39:04.333",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:39:04.333",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/9.0.62]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:39:04.403",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:39:04.404",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 2065 ms",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:39:04.641",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.jpa.internal.util.LogHelper",
+  "message" : "HHH000204: Processing PersistenceUnitInfo [name: default]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:39:04.698",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.Version",
+  "message" : "HHH000412: Hibernate ORM core version 5.6.8.Final",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:39:04.852",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.annotations.common.Version",
+  "message" : "HCANN000001: Hibernate Commons Annotations {5.1.2.Final}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:39:04.960",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Starting...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:39:05.301",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Start completed.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:39:05.314",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.dialect.Dialect",
+  "message" : "HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:39:06.134",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator",
+  "message" : "HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:39:06.142",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Initialized JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:39:06.501",
+  "level" : "WARN",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration",
+  "message" : "spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:39:06.869",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer",
+  "message" : "LiveReload server is running on port 35729",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:39:06.891",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-8083\"]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:39:06.918",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 8083 (http) with context path ''",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:39:06.928",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.EmpRec.EmployeeRecord.EmployeeRecordApplication",
+  "message" : "Started EmployeeRecordApplication in 5.367 seconds (JVM running for 6.357)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:39:13.258",
+  "level" : "INFO",
+  "thread" : "http-nio-8083-exec-1",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring DispatcherServlet 'dispatcherServlet'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:39:13.259",
+  "level" : "INFO",
+  "thread" : "http-nio-8083-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Initializing Servlet 'dispatcherServlet'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:39:13.262",
+  "level" : "INFO",
+  "thread" : "http-nio-8083-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Completed initialization in 1 ms",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:44:35.027",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Closing JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:44:35.033",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown initiated...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:44:35.045",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown completed.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:44:40.127",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.EmpRec.EmployeeRecord.EmployeeRecordApplication",
+  "message" : "Starting EmployeeRecordApplication using Java 11.0.15 on GEMGN-220222 with PID 34444 (C:\\Users\\rahul.bhardwaj\\Downloads\\EmpRec\\EmpRec\\target\\classes started by Rahul.Bhardwaj in C:\\Users\\rahul.bhardwaj\\Downloads\\EmpRec\\EmpRec)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:44:40.151",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.EmpRec.EmployeeRecord.EmployeeRecordApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:44:40.205",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:44:40.206",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:44:40.853",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.data.repository.com.EmpRec.EmployeeRecord.config.RepositoryConfigurationDelegate",
+  "message" : "Bootstrapping Spring Data JPA repositories in DEFAULT mode.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:44:40.910",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.data.repository.com.EmpRec.EmployeeRecord.config.RepositoryConfigurationDelegate",
+  "message" : "Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interfaces.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:44:42.020",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 8083 (http)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:44:42.035",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-8083\"]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:44:42.036",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:44:42.036",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/9.0.62]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:44:42.115",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:44:42.115",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 1907 ms",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:44:42.323",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.jpa.internal.util.LogHelper",
+  "message" : "HHH000204: Processing PersistenceUnitInfo [name: default]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:44:42.372",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.Version",
+  "message" : "HHH000412: Hibernate ORM core version 5.6.8.Final",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:44:42.528",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.annotations.common.Version",
+  "message" : "HCANN000001: Hibernate Commons Annotations {5.1.2.Final}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:44:42.632",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Starting...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:44:42.934",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Start completed.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:44:42.953",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.dialect.Dialect",
+  "message" : "HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:44:43.551",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator",
+  "message" : "HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:44:43.563",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Initialized JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:44:43.936",
+  "level" : "WARN",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration",
+  "message" : "spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:44:44.307",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer",
+  "message" : "LiveReload server is running on port 35729",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:44:44.323",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-8083\"]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:44:44.350",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 8083 (http) with context path ''",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:44:44.364",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.EmpRec.EmployeeRecord.EmployeeRecordApplication",
+  "message" : "Started EmployeeRecordApplication in 4.724 seconds (JVM running for 5.669)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:44:55.969",
+  "level" : "INFO",
+  "thread" : "http-nio-8083-exec-1",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring DispatcherServlet 'dispatcherServlet'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:44:55.971",
+  "level" : "INFO",
+  "thread" : "http-nio-8083-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Initializing Servlet 'dispatcherServlet'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 18:44:55.975",
+  "level" : "INFO",
+  "thread" : "http-nio-8083-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Completed initialization in 3 ms",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 22:16:37.716",
+  "level" : "WARN",
+  "thread" : "HikariPool-1 housekeeper",
+  "logger" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h20m24s516ms74µs900ns).",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 22:41:16.483",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Closing JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 22:41:16.493",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown initiated...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-06 22:41:16.509",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown completed.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-20 13:16:32.747",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.EmpRec.EmployeeRecord.EmployeeRecordApplication",
+  "message" : "Starting EmployeeRecordApplication using Java 11.0.15 on GEMGN-220222 with PID 22776 (C:\\Users\\rahul.bhardwaj\\Downloads\\EmpRec\\EmpRec\\target\\classes started by Rahul.Bhardwaj in C:\\Users\\rahul.bhardwaj\\Downloads\\EmpRec\\EmpRec)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-20 13:16:32.768",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.EmpRec.EmployeeRecord.EmployeeRecordApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-20 13:16:32.838",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-20 13:16:32.838",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-20 13:16:33.560",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.data.repository.com.EmpRec.EmployeeRecord.config.RepositoryConfigurationDelegate",
+  "message" : "Bootstrapping Spring Data JPA repositories in DEFAULT mode.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-20 13:16:33.610",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.data.repository.com.EmpRec.EmployeeRecord.config.RepositoryConfigurationDelegate",
+  "message" : "Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-20 13:16:34.802",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 8083 (http)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-20 13:16:34.817",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-8083\"]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-20 13:16:34.818",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-20 13:16:34.818",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/9.0.62]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-20 13:16:34.969",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-20 13:16:34.969",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 2131 ms",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-20 13:16:35.235",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.jpa.internal.util.LogHelper",
+  "message" : "HHH000204: Processing PersistenceUnitInfo [name: default]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-20 13:16:35.285",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.Version",
+  "message" : "HHH000412: Hibernate ORM core version 5.6.8.Final",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-20 13:16:35.476",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.annotations.common.Version",
+  "message" : "HCANN000001: Hibernate Commons Annotations {5.1.2.Final}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-20 13:16:35.576",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Starting...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-20 13:16:35.954",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Start completed.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-20 13:16:35.980",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.dialect.Dialect",
+  "message" : "HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-20 13:16:36.853",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator",
+  "message" : "HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-20 13:16:36.863",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Initialized JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-20 13:16:37.259",
+  "level" : "WARN",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration",
+  "message" : "spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-20 13:16:37.652",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer",
+  "message" : "LiveReload server is running on port 35729",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-20 13:16:37.667",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-8083\"]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-20 13:16:37.700",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 8083 (http) with context path ''",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-20 13:16:37.717",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.EmpRec.EmployeeRecord.EmployeeRecordApplication",
+  "message" : "Started EmployeeRecordApplication in 5.598 seconds (JVM running for 6.982)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-20 13:35:24.103",
+  "level" : "WARN",
+  "thread" : "HikariPool-1 housekeeper",
+  "logger" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m17s799ms118µs).",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-20 18:26:11.056",
+  "level" : "WARN",
+  "thread" : "HikariPool-1 housekeeper",
+  "logger" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h52m15s863ms155µs900ns).",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-20 18:33:07.754",
+  "level" : "WARN",
+  "thread" : "HikariPool-1 housekeeper",
+  "logger" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56s619ms36µs900ns).",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-20 18:40:02.604",
+  "level" : "WARN",
+  "thread" : "HikariPool-1 housekeeper",
+  "logger" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m24s745ms912µs600ns).",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-20 22:19:21.768",
+  "level" : "WARN",
+  "thread" : "HikariPool-1 housekeeper",
+  "logger" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h34m19s101ms234µs600ns).",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-20 23:12:09.444",
+  "level" : "WARN",
+  "thread" : "HikariPool-1 housekeeper",
+  "logger" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=34m17s151ms104µs400ns).",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-20 23:48:57.704",
+  "level" : "WARN",
+  "thread" : "HikariPool-1 housekeeper",
+  "logger" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m17s574ms803µs400ns).",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-21 00:18:27.402",
+  "level" : "WARN",
+  "thread" : "HikariPool-1 housekeeper",
+  "logger" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m29s486ms320µs800ns).",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-21 11:18:34.946",
+  "level" : "WARN",
+  "thread" : "HikariPool-1 housekeeper",
+  "logger" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11h7s543ms964µs800ns).",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-21 12:29:29.435",
+  "level" : "WARN",
+  "thread" : "HikariPool-1 housekeeper",
+  "logger" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=41m23s201ms281µs900ns).",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-21 12:59:09.817",
+  "level" : "WARN",
+  "thread" : "HikariPool-1 housekeeper",
+  "logger" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m10s59ms574µs800ns).",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-21 15:11:06.486",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Closing JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-21 15:11:06.531",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown initiated...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-07-21 15:11:06.554",
+  "level" : "INFO",
+  "thread" : "SpringApplicationShutdownHook",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Shutdown completed.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-08-08 18:04:04.246",
+  "level" : "ERROR",
+  "thread" : "main",
+  "logger" : "org.testng.reporters.jq.Main",
+  "message" : "C:\\Users\\rahul.bhardwaj\\Downloads\\EmpRec\\EmpRec\\target\\surefire-reports\\jquery-3.6.0.min.js",
+  "context" : "default",
+  "exception" : "java.nio.file.FileAlreadyExistsException: C:\\Users\\rahul.bhardwaj\\Downloads\\EmpRec\\EmpRec\\target\\surefire-reports\\jquery-3.6.0.min.js\r\n\tat java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87)\r\n\tat java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)\r\n\tat java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)\r\n\tat java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235)\r\n\tat java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:478)\r\n\tat java.base/java.nio.file.Files.newOutputStream(Files.java:220)\r\n\tat java.base/java.nio.file.Files.copy(Files.java:3067)\r\n\tat org.testng.reporters.jq.Main.generateReport(Main.java:95)\r\n\tat org.testng.TestNG.generateReports(TestNG.java:1134)\r\n\tat org.testng.TestNG.run(TestNG.java:1072)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)\r\n\tat org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)\r\n"
+}{
+  "timestamp" : "2022-08-10 18:36:22.603",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.EmpRec.EmployeeRecord.EmployeeRecordApplication",
+  "message" : "Starting EmployeeRecordApplication using Java 11.0.15 on GEMGN-220222 with PID 24620 (C:\\Users\\rahul.bhardwaj\\Downloads\\EmpRec\\EmpRec\\target\\classes started by Rahul.Bhardwaj in C:\\Users\\rahul.bhardwaj\\Downloads\\EmpRec\\EmpRec)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-08-10 18:36:22.633",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.EmpRec.EmployeeRecord.EmployeeRecordApplication",
+  "message" : "No active profile set, falling back to 1 default profile: \"default\"",
+  "context" : "default"
+}{
+  "timestamp" : "2022-08-10 18:36:22.712",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable",
+  "context" : "default"
+}{
+  "timestamp" : "2022-08-10 18:36:22.714",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor",
+  "message" : "For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-08-10 18:36:24.030",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Bootstrapping Spring Data JPA repositories in DEFAULT mode.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-08-10 18:36:24.113",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.data.repository.config.RepositoryConfigurationDelegate",
+  "message" : "Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interfaces.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-08-10 18:36:25.874",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat initialized with port(s): 8083 (http)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-08-10 18:36:25.890",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Initializing ProtocolHandler [\"http-nio-8083\"]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-08-10 18:36:25.891",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardService",
+  "message" : "Starting service [Tomcat]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-08-10 18:36:25.891",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.StandardEngine",
+  "message" : "Starting Servlet engine: [Apache Tomcat/9.0.62]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-08-10 18:36:26.093",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring embedded WebApplicationContext",
+  "context" : "default"
+}{
+  "timestamp" : "2022-08-10 18:36:26.094",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext",
+  "message" : "Root WebApplicationContext: initialization completed in 3378 ms",
+  "context" : "default"
+}{
+  "timestamp" : "2022-08-10 18:36:26.453",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.jpa.internal.util.LogHelper",
+  "message" : "HHH000204: Processing PersistenceUnitInfo [name: default]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-08-10 18:36:26.544",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.Version",
+  "message" : "HHH000412: Hibernate ORM core version 5.6.8.Final",
+  "context" : "default"
+}{
+  "timestamp" : "2022-08-10 18:36:26.802",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.annotations.common.Version",
+  "message" : "HCANN000001: Hibernate Commons Annotations {5.1.2.Final}",
+  "context" : "default"
+}{
+  "timestamp" : "2022-08-10 18:36:26.922",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Starting...",
+  "context" : "default"
+}{
+  "timestamp" : "2022-08-10 18:36:27.378",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.zaxxer.hikari.HikariDataSource",
+  "message" : "HikariPool-1 - Start completed.",
+  "context" : "default"
+}{
+  "timestamp" : "2022-08-10 18:36:27.394",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.dialect.Dialect",
+  "message" : "HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect",
+  "context" : "default"
+}{
+  "timestamp" : "2022-08-10 18:36:28.518",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator",
+  "message" : "HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-08-10 18:36:28.531",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+  "message" : "Initialized JPA EntityManagerFactory for persistence unit 'default'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-08-10 18:36:29.136",
+  "level" : "WARN",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration",
+  "message" : "spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning",
+  "context" : "default"
+}{
+  "timestamp" : "2022-08-10 18:36:31.079",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer",
+  "message" : "LiveReload server is running on port 35729",
+  "context" : "default"
+}{
+  "timestamp" : "2022-08-10 18:36:31.099",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.apache.coyote.http11.Http11NioProtocol",
+  "message" : "Starting ProtocolHandler [\"http-nio-8083\"]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-08-10 18:36:31.149",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "org.springframework.boot.web.embedded.tomcat.TomcatWebServer",
+  "message" : "Tomcat started on port(s): 8083 (http) with context path ''",
+  "context" : "default"
+}{
+  "timestamp" : "2022-08-10 18:36:31.166",
+  "level" : "INFO",
+  "thread" : "restartedMain",
+  "logger" : "com.EmpRec.EmployeeRecord.EmployeeRecordApplication",
+  "message" : "Started EmployeeRecordApplication in 9.319 seconds (JVM running for 11.081)",
+  "context" : "default"
+}{
+  "timestamp" : "2022-08-10 18:38:11.740",
+  "level" : "INFO",
+  "thread" : "http-nio-8083-exec-1",
+  "logger" : "org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]",
+  "message" : "Initializing Spring DispatcherServlet 'dispatcherServlet'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-08-10 18:38:11.741",
+  "level" : "INFO",
+  "thread" : "http-nio-8083-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Initializing Servlet 'dispatcherServlet'",
+  "context" : "default"
+}{
+  "timestamp" : "2022-08-10 18:38:11.744",
+  "level" : "INFO",
+  "thread" : "http-nio-8083-exec-1",
+  "logger" : "org.springframework.web.servlet.DispatcherServlet",
+  "message" : "Completed initialization in 2 ms",
+  "context" : "default"
+}{
+  "timestamp" : "2022-08-10 18:38:13.316",
+  "level" : "INFO",
+  "thread" : "http-nio-8083-exec-10",
+  "logger" : "org.springdoc.api.AbstractOpenApiResource",
+  "message" : "Init duration for springdoc-openapi is: 753 ms",
+  "context" : "default"
+}{
+  "timestamp" : "2022-08-10 18:39:34.659",
+  "level" : "INFO",
+  "thread" : "http-nio-8083-exec-4",
+  "logger" : "com.EmpRec.EmployeeRecord.Controller.EmployeeController",
+  "message" : "[Employee(id=1, name=raikl, salary=25003, dept=EMS), Employee(id=2, name=raikl, salary=25003, dept=EMS), Employee(id=3, name=raikl, salary=25003, dept=EMS), Employee(id=4, name=raikl, salary=25003, dept=EMS), Employee(id=5, name=raikl, salary=25003, dept=EMS), Employee(id=6, name=raikl, salary=25003, dept=EMS), Employee(id=7, name=grigor, salary=3245, dept=AWS), Employee(id=101, name=raj, salary=2500, dept=EMS), Employee(id=102, name=Carla, salary=56565, dept=IVS)]",
+  "context" : "default"
+}{
+  "timestamp" : "2022-08-10 19:40:08.884",
+  "level" : "WARN",
+  "thread" : "HikariPool-1 housekeeper",
+  "logger" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51m41s212ms239µs100ns).",
+  "context" : "default"
+}{
+  "timestamp" : "2022-08-10 23:10:34.033",
+  "level" : "WARN",
+  "thread" : "HikariPool-1 housekeeper",
+  "logger" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m16s413ms560µs900ns).",
+  "context" : "default"
+}{
+  "timestamp" : "2022-08-11 01:10:10.843",
+  "level" : "WARN",
+  "thread" : "HikariPool-1 housekeeper",
+  "logger" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h5s728ms648µs900ns).",
+  "context" : "default"
+}{
+  "timestamp" : "2022-08-11 03:10:11.738",
+  "level" : "WARN",
+  "thread" : "HikariPool-1 housekeeper",
+  "logger" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h29s731ms162µs900ns).",
+  "context" : "default"
+}{
+  "timestamp" : "2022-08-11 05:10:12.606",
+  "level" : "WARN",
+  "thread" : "HikariPool-1 housekeeper",
+  "logger" : "com.zaxxer.hikari.pool.HikariPool",
+  "message" : "HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h29s765ms985µs600ns).",
+  "context" : "default"
+}
